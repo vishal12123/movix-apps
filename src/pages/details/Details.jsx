@@ -7,8 +7,8 @@ import useFetch from "../../hooks/useFetch";
 import DetailsBanner from "./detailsBanner/DetailsBanner";
 import Cast from "./cast/Cast";
 import VideosSection from "./videosSection/VideosSection";
-import Similar from "./Carousel/Similar";
-import Recommendation from "./Carousel/Recommendation";
+import Similar from "./carousel/Similar";
+import Recommendation from "./carousel/Recommendation";
 
 const Details = () => {
     const { mediaType, id } = useParams();
